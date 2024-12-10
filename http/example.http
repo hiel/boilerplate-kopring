@@ -1,0 +1,8 @@
+### 파일 업로드
+POST {{host}}/examples/upload-file
+Content-Type: application/json; charset=utf-8
+Authorization: Bearer {{access-token}}
+
+{
+    "file": ""
+}
